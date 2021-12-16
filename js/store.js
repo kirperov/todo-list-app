@@ -82,21 +82,29 @@
 
 		// Generate an ID
 	    var newId = ""; 
-	    var charset = "0123456789";
+	    // var charset = "0123456789";
+		// console.log(todos.length)
+        // for (var i = 0; i < 6; i++) {
+     	// 	newId += charset.charAt(Math.floor(Math.random() * charset.length));
+		// }
 
-        for (var i = 0; i < 6; i++) {
-     		newId += charset.charAt(Math.floor(Math.random() * charset.length));
+		for (var i = 0; i <= todos.length; i++) {
+			newId++;
 		}
-
 		// If an ID was actually given, find the item and update each property
 		if (id) {
-			for (var i = 0; i < todos.length; i++) {
-				if (todos[i].id === id) {
-					for (var key in updateData) {
-						todos[i][key] = updateData[key];
-					}
-					break;
-				}
+			// for (var i = 0; i < todos.length; i++) {
+			// 	if (todos[i].id === id) {
+			// 		for (var key in updateData) {
+			// 			todos[i][key] = updateData[key];
+			// 		}
+			// 		break;
+			// 	}
+			// }
+			
+			let todosIndex = todos.findIndex((todo => todo.id === id));
+			for (var key in updateData) {
+				todos[todosIndex][key] = updateData[key];
 			}
 
 			localStorage[this._dbName] = JSON.stringify(data);
@@ -124,14 +132,16 @@
 		var todos = data.todos;
 		var todoId;
 		
-		for (var i = 0; i < todos.length; i++) {
-			if (todos[i].id == id) {
-				todoId = todos[i].id;
-			}
-		}
+		// for (var i = 0; i < todos.length; i++) {
+		// 	if (todos[i].id == id) {
+		// 		todoId = todos[i].id;
+		// 	}
+		// }
+
+		let todosIndex = todos.findIndex((todo => todo.id === id));
 
 		for (var i = 0; i < todos.length; i++) {
-			if (todos[i].id == todoId) {
+			if (todos[todosIndex].id == todoId) {
 				todos.splice(i, 1);
 			}
 		}
