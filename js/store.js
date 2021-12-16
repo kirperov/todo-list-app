@@ -130,7 +130,7 @@
 	Store.prototype.remove = function (id, callback) {
 		var data = JSON.parse(localStorage[this._dbName]);
 		var todos = data.todos;
-		var todoId;
+		// var todoId;
 		
 		// for (var i = 0; i < todos.length; i++) {
 		// 	if (todos[i].id == id) {
