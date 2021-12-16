@@ -137,14 +137,13 @@
 		// 		todoId = todos[i].id;
 		// 	}
 		// }
-
 		let todosIndex = todos.findIndex((todo => todo.id === id));
 
-		for (var i = 0; i < todos.length; i++) {
-			if (todos[todosIndex].id == todoId) {
-				todos.splice(i, 1);
-			}
-		}
+		// for (var i = 0; i < todos.length; i++) {
+		// 	if (todos[todosIndex].id == todoId) {
+				todos.splice(todosIndex, 1);
+			// }
+		// }
 
 		localStorage[this._dbName] = JSON.stringify(data);
 		callback.call(this, todos);
