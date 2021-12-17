@@ -81,27 +81,18 @@
 		callback = callback || function () {};
 
 		// Generate an ID
-	    var newId = ""; 
-	    // var charset = "0123456789";
-		// console.log(todos.length)
-        // for (var i = 0; i < 6; i++) {
-     	// 	newId += charset.charAt(Math.floor(Math.random() * charset.length));
-		// }
-
-		for (var i = 0; i <= todos.length; i++) {
-			newId++;
+	    let newId = 1; 
+		let arr = [];
+		todos.forEach(todo => {
+			arr.push(todo.id)
+		});
+		let max = Math.max(...arr);
+		if(todos.length > 0) {
+			newId = max +1;
 		}
+
 		// If an ID was actually given, find the item and update each property
-		if (id) {
-			// for (var i = 0; i < todos.length; i++) {
-			// 	if (todos[i].id === id) {
-			// 		for (var key in updateData) {
-			// 			todos[i][key] = updateData[key];
-			// 		}
-			// 		break;
-			// 	}
-			// }
-			
+		if (id) {	
 			let todosIndex = todos.findIndex((todo => todo.id === id));
 			for (var key in updateData) {
 				todos[todosIndex][key] = updateData[key];
@@ -130,21 +121,9 @@
 	Store.prototype.remove = function (id, callback) {
 		var data = JSON.parse(localStorage[this._dbName]);
 		var todos = data.todos;
-		// var todoId;
-		
-		// for (var i = 0; i < todos.length; i++) {
-		// 	if (todos[i].id == id) {
-		// 		todoId = todos[i].id;
-		// 	}
-		// }
 		let todosIndex = todos.findIndex((todo => todo.id === id));
-
-		// for (var i = 0; i < todos.length; i++) {
-		// 	if (todos[todosIndex].id == todoId) {
-				todos.splice(todosIndex, 1);
-			// }
-		// }
-
+			todos.splice(todosIndex, 1);
+			
 		localStorage[this._dbName] = JSON.stringify(data);
 		callback.call(this, todos);
 	};

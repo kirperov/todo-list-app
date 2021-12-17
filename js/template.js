@@ -58,9 +58,7 @@
 	 * });
 	 */
 	Template.prototype.show = function (data) {
-		// var i, l;
 		var view = '';
-
 		for (let i = 0; i < data.length; i++) {
 			var template = this.defaultTemplate;
 			var completed = '';
