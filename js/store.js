@@ -79,18 +79,8 @@
 		var todos = data.todos;
 
 		callback = callback || function () {};
-
 		// Generate an ID
-	    let newId = 1; 
-		let arr = [];
-		todos.forEach(todo => {
-			arr.push(todo.id)
-		});
-		let max = Math.max(...arr);
-		if(todos.length > 0) {
-			newId = max +1;
-		}
-
+		let newId;
 		// If an ID was actually given, find the item and update each property
 		if (id) {	
 			let todosIndex = todos.findIndex((todo => todo.id === id));
@@ -101,7 +91,14 @@
 			localStorage[this._dbName] = JSON.stringify(data);
 			callback.call(this, todos);
 		} else {
-
+			if(todos.length > 0) {
+				let biggestId = todos.reduce(function(prev, current) {
+					return (prev.id > current.id) ? prev : current
+				})
+				newId = biggestId.id + 1;
+			} else {
+				newId=1;
+			}
     		// Assign an ID
 			updateData.id = parseInt(newId);
     
