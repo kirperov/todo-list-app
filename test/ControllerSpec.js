@@ -153,10 +153,19 @@ describe('controller', function () {
 
 	it('should highlight "All" filter by default', function () {
 		// TEST 4
+		var todo = {id: 42, title: 'my todo'};
+		setUpModel([todo]);
+
+		subject.setView('');
+
+		expect(view.render).toHaveBeenCalledWith('setFilter', '');
 	});
 
 	it('should highlight "Active" filter when switching to active view', function () {
-		// TODO: write test
+		// TEST 5
+		setUpModel([{title: 'my todo', completed: true, title: 'my todo 2', completed: true}]);
+		subject.setView('#/completed');	
+		expect(view.render).toHaveBeenCalledWith('toggleAll', Object({ checked: true }));
 	});
 
 	describe('toggle all', function () {
@@ -219,7 +228,14 @@ describe('controller', function () {
 
 	describe('element removal', function () {
 		it('should remove an entry from the model', function () {
-			// TODO: write test
+			// TEST 9
+			var todo = {id: 42, title: 'my todo'};
+			setUpModel([todo]);
+
+			subject.setView('');
+			view.trigger('itemRemove', {id: 42, title: ''});
+
+			expect(model.remove).toHaveBeenCalledWith(42, jasmine.any(Function));
 		});
 
 		it('should remove an entry from the view', function () {
