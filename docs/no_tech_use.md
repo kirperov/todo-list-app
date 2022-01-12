@@ -1,10 +1,12 @@
 
 
+
  1. **[Utilisation non technique](/todo-list-app/no_tech_use)** \
  1.1 Introduction \
  1.2 Ajout d'un todo \
  1.3 Édition d'un todo \
- 1.4 Suppression d'un todo
+ 1.4 Suppression d'un todo \
+ 1.5 Marquer comme complété
  2. **Fonctionnement technique de l'application**
  3. **Audit**
 
@@ -40,3 +42,14 @@ Pour modifier un todo c'est aussi simple que ajouter. Pour faire ça if vous fau
 
 Pour supprimer il suffit de cliquer sur un "croix" dans la todo.
 ![Delete item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture6.PNG)
+
+1.5 Marquer comme complété
+
+ - Pour marquer tous les dodos les todos comme complété il cliquez sur un logo dans le champs.
+![Check all](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture7.PNG)
+- Pour marquer un seul todo comme complété il faut cliquer dans le rond checkbox.
+![Check one](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture8.PNG)
+
+
+
+
