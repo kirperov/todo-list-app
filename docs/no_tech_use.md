@@ -35,3 +35,8 @@ Pour ajouter un todo c'est très simple. Il faut juste écrire ce que vous voule
 
 Pour modifier un todo c'est aussi simple que ajouter. Pour faire ça if vous faut faire un doubble click sur le todo que vous voulez modifier, puis écrire dans le champs.
 ![Edit item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture5.PNG)
+
+1.4 **Suppression d'un todo**
+
+Pour supprimer il suffit de cliquer sur un "croix" dans la todo.
+![Delete item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture6.PNG)
