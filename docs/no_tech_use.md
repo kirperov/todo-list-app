@@ -43,7 +43,7 @@ Pour modifier un todo c'est aussi simple que ajouter. Pour faire ça if vous fau
 Pour supprimer il suffit de cliquer sur un "croix" dans la todo.
 ![Delete item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture6.PNG)
 
-1.5 Marquer comme complété
+1.5 **Marquer comme complété**
 
  - Pour marquer tous les dodos les todos comme complété il cliquez sur un logo dans le champs.
 ![Check all](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture7.PNG)
