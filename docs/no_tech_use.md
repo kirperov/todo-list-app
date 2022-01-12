@@ -1,4 +1,5 @@
-1. **Utilisation non technique** \
+1. **Utilisation non technique** 
+\
 1.1 Introduction
 
 L'utilisation de l'application se fait de manière très simple et intuitif. Tout d'abord nous allons voir les fonctionnalités de l'application du côté utilisateur. Todo app list est une application one page.
