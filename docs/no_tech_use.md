@@ -23,7 +23,9 @@ L'utilisation de l'application se fait de manière très simple et intuitif. Tou
 3 *Les todos actives qui sont pas encore complétées* \
 4 *Les todos qui sont terminées*
 ![Filters](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture3.jpg)
+
 ---
+
 1.2 **Ajout d'un todo** \
 Pour ajouter un todo c'est très simple. Il faut juste écrire ce que vous voulez faire dans le chams et cliquer "ENTER" sur à l'aide de votre clavier.
-![Add new item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture4.jpg)
+![Add new item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture4.png)
