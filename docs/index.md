@@ -1,6 +1,6 @@
 
-Author: Kirill Petrov
-Last update: 11/01/2022
+Author: Kirill Petrov \
+Last update: 11/01/2022 \
 Version: 0.1
 
 
