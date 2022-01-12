@@ -1,4 +1,5 @@
 
+
  1. **[Utilisation non technique](/todo-list-app/no_tech_use)** \
  1.1 Introduction \
  1.2 Ajout d'un todo \
@@ -24,9 +25,13 @@ L'utilisation de l'application se fait de manière très simple et intuitif. Tou
 4 *Les todos qui sont terminées*
 ![Filters](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture3.jpg)
 
+
 1.2 **Ajout d'un todo** \
+
 Pour ajouter un todo c'est très simple. Il faut juste écrire ce que vous voulez faire dans le chams et cliquer "ENTER" sur à l'aide de votre clavier.
 ![Add new item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture4.PNG) \
+
 1.3 **Édition d'un todo** \
+
 Pour modifier un todo c'est aussi simple que ajouter. Pour faire ça if vous faut faire un doubble click sur le todo que vous voulez modifier, puis écrire dans le champs.
 ![Edit item](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture5.PNG)
