@@ -27,10 +27,10 @@ Version: 0.1
  L'utilisation de l'application se fait de manière très simple et intuitif. Tout d'abord nous allons voir les fonctionnalités de l'application du côté utilisateur. Todo app list est une application one page.
 
  - *Arrivé sur la page de l'application*
- ![First](https://raw.githubusercontent.com/kirperov/todo-list-app/main/doc/images/Capture1.PNG)
+ ![First](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture1.PNG)
 - *Les option de filtre sur les todos*
 1 Les todos restants à faire
 2 Pour afficher tous les todos inclus les complétées
 3 Les todos actives qui sont pas encore complétées
 
-![Filters](https://raw.githubusercontent.com/kirperov/todo-list-app/3d139f5101496c5176e5141004fec08a1124db61/doc/images/Capture3.jpg)
+![Filters](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture3.jpg)
