@@ -5,7 +5,8 @@
  1.4 Suppression d'un todo
  2. **Fonctionnement technique de l'application**
  3. **Audit**
-\
+
+---
 
 1. **Utilisation non technique** 
 \
