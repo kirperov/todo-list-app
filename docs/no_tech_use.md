@@ -20,4 +20,5 @@ L'utilisation de l'application se fait de manière très simple et intuitif. Tou
 1 Les todos restants à faire \
 2 Pour afficher tous les todos inclus les complétées \
 3 Les todos actives qui sont pas encore complétées \
+4 Les todos qui sont terminées
 ![Filters](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/Capture3.jpg)
