@@ -163,21 +163,32 @@ describe('controller', function () {
 
 	it('should highlight "Active" filter when switching to active view', function () {
 		// TEST 5
-		setUpModel([{title: 'my todo', completed: true, title: 'my todo 2', completed: true}]);
-		subject.setView('#/completed');	
-		expect(view.render).toHaveBeenCalledWith('toggleAll', Object({ checked: true }));
+		var todo = {id: 42, title: 'my todo'};
+		setUpModel([todo]);
+
+		subject.setView('#/active');
+
+		expect(view.render).toHaveBeenCalledWith('setFilter', 'active');
 	});
 
 	describe('toggle all', function () {
 		it('should toggle all todos to completed', function () {
 			// TEST 6
-			setUpModel([{title: 'my todo', completed: true, title: 'my todo 2', completed: true}]);
-			subject.setView('#/completed');	
-			expect(view.render).toHaveBeenCalledWith('toggleAll', Object({ checked: true }));
+			setUpModel([{id: 1, title: 'my todo ', completed: false}, {id: 2, title: 'my todo 2', completed: false}]);
+			subject.setView('');	
+			view.trigger('toggleAll', {completed: true});
+
+			expect(model.update).toHaveBeenCalledWith(1, {completed: true}, jasmine.any(Function));
+			expect(model.update).toHaveBeenCalledWith(2, {completed: true}, jasmine.any(Function));
 		});
 
 		it('should update the view', function () {
 			// TODO: write test
+			setUpModel([{id: 1, title: 'my todo ', completed: false}]);
+			subject.setView('');	
+			view.trigger('toggleAll', {completed: true});
+
+			expect(view.render).toHaveBeenCalledWith("elementComplete", {id: 1, completed: true});
 		});
 	});
 
