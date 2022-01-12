@@ -8,7 +8,7 @@ Version: 0.1
 
 
 ## Sommaire
-[An Internal Link to a Section Heading](/docs/test)
+[An Internal Link to a Section Heading](/todo-list-app/test)
  1. **Utilisation non technique**
  1.1 Introduction
  1.2 Ajout d'un todo
