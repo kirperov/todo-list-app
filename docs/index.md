@@ -1,7 +1,7 @@
 
 Author: Kirill Petrov \
-Last update: 11/01/2022 \
-Version: 0.1
+Last update: 20/01/2022 \
+Version: 0.2
 
 
 # Documentation Todo list app

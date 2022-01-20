@@ -2,11 +2,11 @@
 
 
  1. **[Utilisation non technique](/todo-list-app/no_tech_use)** \
- 1.1 Introduction \
- 1.2 Ajout d'un todo \
- 1.3 Édition d'un todo \
- 1.4 Suppression d'un todo \
- 1.5 Marquer comme complété
+ 1.1 *Introduction* \
+ 1.2 *Ajout d'un todo* \
+ 1.3 *Édition d'un todo* \
+ 1.4 *Suppression d'un todo* \
+ 1.5 *Marquer comme complété*
  2. **Fonctionnement technique de l'application**
  3. **Audit**
 
@@ -14,7 +14,7 @@
 
 1. **Utilisation non technique** 
 \
-1.1 Introduction
+1.1 **Introduction**
 
 L'utilisation de l'application se fait de manière très simple et intuitif. Tout d'abord nous allons voir les fonctionnalités de l'application du côté utilisateur. Todo app list est une application one page.
 
