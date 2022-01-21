@@ -244,7 +244,7 @@ describe('controller', function () {
 			setUpModel([todo]);
 
 			subject.setView('');
-			view.trigger('itemRemove', {id: 42, title: ''});
+			view.trigger('itemRemove', todo);
 
 			expect(model.remove).toHaveBeenCalledWith(42, jasmine.any(Function));
 		});
