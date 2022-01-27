@@ -1,7 +1,7 @@
 
 
 
- 1. **[Utilisation non technique](/todo-list-app/no_tech_use)** \
+ 1. **[Utilisation](/todo-list-app/no_tech_use)** \
  1.1 *Introduction* \
  1.2 *Ajout d'un todo* \
  1.3 *Édition d'un todo* \
