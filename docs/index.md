@@ -20,6 +20,6 @@ Version: 0.3
 1.2 *[model.js](/todo-list-app/tech_use_model)* \
 1.3 *[store.js](/todo-list-app/tech_use_storejs)* \
 1.4 *[template.js](/todo-list-app/tech_use_template)* \
-1.5 *[view.js](/todo-list-app/tech_use_view)* \
+1.5 *[view.js](/todo-list-app/tech_use_view)* 
 3.  **[Audit](/todo-list-app/tech_use_audit)**
 

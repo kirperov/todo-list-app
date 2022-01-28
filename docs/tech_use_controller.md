@@ -9,15 +9,12 @@
 1.3 *Édition d'un todo* \
 1.4 *Suppression d'un todo* \
 1.5 *Marquer comme complété*
-2.  **[Fonctionnement technique de l'application](/todo-list-app/tech_use)** \
-1.1 *Introduction* \
-1.2 *Structure des fichiers* \
-1.3 *[app.js et controlleur.js](/todo-list-app/tech_use_controller)* \
-1.4 *[model.js](/todo-list-app/tech_use_model)* \
-1.5 *[store.js](/todo-list-app/tech_use_storejs)* \
-1.6 *[template.js](/todo-list-app/tech_use_template)* \
-1.7 *[view.js](/todo-list-app/tech_use_view)* \
-1.8 *[helpers.js](/todo-list-app/tech_use_helpers)* 
+2.  **[Fonctionnement technique de l'application](/todo-list-app/tech_use_controller)** \
+1.1 *[app.js et controlleur.js](/todo-list-app/tech_use_controller)* \
+1.2 *[model.js](/todo-list-app/tech_use_model)* \
+1.3 *[store.js](/todo-list-app/tech_use_storejs)* \
+1.4 *[template.js](/todo-list-app/tech_use_template)* \
+1.5 *[view.js](/todo-list-app/tech_use_view)* 
 3.  **[Audit](/todo-list-app/tech_use_audit)**
 
 ---
