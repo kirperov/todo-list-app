@@ -20,7 +20,7 @@ Version: 0.3
 1.2 *Structure des fichiers* \
 1.3 *[app.js et controlleur.js](/todo-list-app/tech_use_controller)* \
 1.4 *[model.js](/todo-list-app/tech_use_model)* \
-1.5 *[store.js](/todo-list-app/tech_use_store)* \
+1.5 *[store.js](/todo-list-app/tech_use_storejs)* \
 1.6 *[template.js](/todo-list-app/tech_use_temlplate)* \
 1.7 *[view.js](/todo-list-app/tech_use_view)* \
 1.8 *[helpers.js](/todo-list-app/tech_use_helpers)* 
