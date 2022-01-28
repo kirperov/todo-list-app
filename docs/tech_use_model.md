@@ -12,7 +12,7 @@
 2.  **[Fonctionnement technique de l'application](/todo-list-app/tech_use)** \
 1.1 *Introduction* \
 1.2 *Structure des fichiers* \
-1.3 *[app.js et controlleur.js](/todo-list-app/use_tech_controller)* \
+1.3 *[app.js et controlleur.js](/todo-list-app/tech_use_controller)* \
 1.4 *[model.js](/todo-list-app/tech_use_model)* \
 1.5 *[store.js](/todo-list-app/tech_use_store)* \
 1.6 *[template.js](/todo-list-app/tech_use_temlplate)* \
