@@ -28,27 +28,13 @@
   
 
 *  [Model][1]
-*  [Parameters][2]
-
 *  [create][3]
-*  [Parameters][4]
-
 *  [read][5]
-*  [Parameters][6]
-
 *  [Examples][7]
-
 *  [update][8]
-*  [Parameters][9]
-
 *  [remove][10]
-*  [Parameters][11]
-
 *  [removeAll][12]
-*  [Parameters][13]
-
 *  [getCount][14]
-*  [Parameters][15]
 
 ---
 
@@ -68,8 +54,8 @@ Crée un nouveau modèle de tâche
 
 #### Paramètres
 
-*  `title`  **[string][17]?** Le titre de la tâche
-*  `callback`  **[function][18]?** Le rappel à déclencher après la création du modèle
+*  `title`  **[string][17]** Le titre de la tâche
+*  `callback`  **[function][18]** Le rappel à déclencher après la création du modèle
 
 ---
 
@@ -82,8 +68,8 @@ contre.
 
 #### Paramètres
 
-*  `query`  **([string][17] / [number][19] / [object][16])?** Une requête pour faire correspondre les modèles avec
-*  `callback`  **[function][18]?** Le rappel au feu après que le modèle est trouvé
+*  `query`  **([string][17] / [number][19] / [object][16])** Une requête pour faire correspondre les modèles avec
+*  `callback`  **[function][18]** Le rappel au feu après que le modèle est trouvé
 
 ---
 #### Exemples
