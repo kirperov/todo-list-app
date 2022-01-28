@@ -103,7 +103,6 @@ Rend toutes les tâches terminées
 Un événement à déclencher chaque fois que vous souhaitez ajouter un élément. Passer simplement à l'événement
 objet et il gérera l'insertion et l'enregistrement DOM du nouvel élément.
 
----
 
 #### Paramètres
 
@@ -116,7 +115,6 @@ objet et il gérera l'insertion et l'enregistrement DOM du nouvel élément.
 En lui donnant un ID, il trouvera l'élément DOM correspondant à cet ID,
 supprimez-le du DOM et supprimez-le également du stockage.
 
----
 
 #### Paramètres
 
@@ -135,7 +133,7 @@ Supprime tous les éléments terminés du DOM et du stockage.
 Donnez-lui un ID de modèle et une case à cocher et il mettra à jour l'élément
 dans le stockage en fonction de l'état de la case à cocher.
 
----
+
 
 #### Paramètres
 
@@ -152,7 +150,6 @@ dans le stockage en fonction de l'état de la case à cocher.
 Basculera l'état marche/arrêt de TOUTES les cases à cocher et l'intégralité des modèles.
 Passez simplement l'objet événement.
 
----
 
 #### Paramètres
 
@@ -171,7 +168,6 @@ nombre de tâches.
 
 Re-filtre les éléments de tâche, en fonction de l'itinéraire actif.
 
----
 
 #### Paramètres
 

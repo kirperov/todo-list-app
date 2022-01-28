@@ -45,6 +45,7 @@
 *  [getCount][14]
 *  [Parameters][15]
 
+---
 
 ## Modèle
 
@@ -54,7 +55,8 @@ Crée une nouvelle instance de modèle et connecte le stockage.
 
 *  `storage`  **[object][16]** Une référence à la classe de stockage côté client
 
- 
+---
+
 ### create
 
 Crée un nouveau modèle de tâche
@@ -64,6 +66,7 @@ Crée un nouveau modèle de tâche
 *  `title`  **[string][17]?** Le titre de la tâche
 *  `callback`  **[function][18]?** Le rappel à déclencher après la création du modèle
 
+---
 
 ### read
 
@@ -74,9 +77,10 @@ contre.
 
 #### Paramètres
 
-*  `query`  **([string][17] | [number][19] | [object][16])?** Une requête pour faire correspondre les modèles avec
+*  `query`  **([string][17] / [number][19] / [object][16])?** Une requête pour faire correspondre les modèles avec
 *  `callback`  **[function][18]?** Le rappel au feu après que le modèle est trouvé
 
+---
 #### Exemples
 
 ```javascript
@@ -86,6 +90,7 @@ model.read('1'); // Comme ci-dessus
 model.read({ foo:  'bar', hello:  'world' });
 
 ```
+---
 
 ### update
 Met à jour un modèle en lui donnant un ID, des données à mettre à jour et un rappel à déclencher lorsque la mise à jour est terminée.
@@ -96,6 +101,8 @@ Met à jour un modèle en lui donnant un ID, des données à mettre à jour et u
 *  `data`  **[object][16]** Les propriétés à mettre à jour et leur nouvelle valeur
 *  `callback`  **[function][18]** Le rappel à déclencher lorsque la mise à jour est terminée.
 
+---
+
 ### remove
 
 Supprime un modèle du stockage
@@ -105,6 +112,8 @@ Supprime un modèle du stockage
 *  `id`  **[number][19]** L'ID du modèle à supprimer
 *  `callback`  **[function][18]** Le rappel à déclencher lorsque la suppression est terminée.
 
+---
+
 ### removeAll
 
 AVERTISSEMENT : supprimera TOUTES les données du stockage.
@@ -112,6 +121,8 @@ AVERTISSEMENT : supprimera TOUTES les données du stockage.
 #### Paramètres
 
 *  `callback`  **[function][18]** Le rappel à déclencher lorsque le stockage est effacé.
+
+---
 
 ### getCount
 
