@@ -79,7 +79,7 @@ Charge et initialise la vue
 
 *  `locationHash`
 
-*  `null`  **[string][23]** '' / 'active' / 'completed'
+*  `null`  **[string][23]**  / 'active' / 'completed'
 
 ---
 
