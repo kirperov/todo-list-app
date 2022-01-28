@@ -24,4 +24,4 @@ Version: 0.3
 1.6 *[template.js](/todo-list-app/tech_use_template)* \
 1.7 *[view.js](/todo-list-app/tech_use_view)* \
 1.8 *[helpers.js](/todo-list-app/tech_use_helpers)* 
-3.  **[Audit](/todo-list-app/tech_use_audit)**
+3.  **[Audit](/todo-list-app/tech_use_audit)**  

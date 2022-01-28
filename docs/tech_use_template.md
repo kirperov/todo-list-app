@@ -80,7 +80,7 @@ Affiche un compteur du nombre de tâches restant à effectuer
 #### Parameters
 
 *  `activeTodos`  **[number][11]** Le nombre de tâches actives.
-Returns **[string][10]** Chaîne contenant le nombre
+Retourne **[string][10]** Chaîne contenant le nombre
 
 ---
 
