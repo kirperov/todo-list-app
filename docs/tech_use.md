@@ -12,6 +12,6 @@
 1.5 *[store.js](/todo-list-app/use_tech_store)* \
 1.6 *[template.js](/todo-list-app/use_tech_temlplate)* \
 1.7 *[view.js](/todo-list-app/use_tech_view)* \
-1.8 *[helpers.js](/todo-list-app/use_tech_helpers)* \
+1.8 *[helpers.js](/todo-list-app/use_tech_helpers)* 
 3.  **[Audit](/todo-list-app/use_tech_audit)**
 ---

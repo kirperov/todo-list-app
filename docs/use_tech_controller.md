@@ -12,7 +12,7 @@
 1.5 *[store.js](/todo-list-app/use_tech_store)* \
 1.6 *[template.js](/todo-list-app/use_tech_temlplate)* \
 1.7 *[view.js](/todo-list-app/use_tech_view)* \
-1.8 *[helpers.js](/todo-list-app/use_tech_helpers)* \
+1.8 *[helpers.js](/todo-list-app/use_tech_helpers)* 
 3.  **[Audit](/todo-list-app/use_tech_audit)**
 
 ---
@@ -119,7 +119,7 @@ dans le stockage en fonction de l'état de la case à cocher.
 
 *  `completed`
 
-*  `silent`  **([boolean][25] | [undefined][26])** Empêcher de filtrer à nouveau les éléments de la tâche
+*  `silent`  **([boolean][25] / [undefined][26])** Empêcher de filtrer à nouveau les éléments de la tâche
 
 *  `checkbox`  **[object][22]**  La case à cocher pour vérifier l'état de l'achèvement ou non
 
