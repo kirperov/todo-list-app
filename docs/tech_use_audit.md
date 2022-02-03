@@ -20,10 +20,6 @@
 
 **Audit de l’application “Todo list app”**
 
-Auteur: Kirill Petrov
-Date de modification: 03/02/2022
-Version: 0.1
-
 
 L’application est très réactif au terme de performance. Aucun ralentissement n’est pas observé. L’utilisation de l’application se fait très simplement et intuitif. Le design est très épurée et moderne ce qui donne plus de confort lors d’utilisation.
 
