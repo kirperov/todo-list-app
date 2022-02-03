@@ -30,4 +30,4 @@ L’application est très réactif au terme de performance. Aucun ralentissement
 **1. Performance** 
 La performance est très haute selon l'audit.
 
-![First](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/todo_list_app_audit/performance/capture.JPG)
+![First](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/todo_list_app_audit/performance/Capture.JPG)
