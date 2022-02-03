@@ -34,7 +34,7 @@ L’application est très réactif au terme de performance. Aucun ralentissement
 La performance est très haute selon l'audit.
 
 
-![First](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/todo_list_app_audit/performance/Capture.JPG)
+![First](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/todo_list_app_audit/performance/capture.JPG)
 
 ---
 
@@ -86,7 +86,7 @@ Erreur: `Failed to load resource: the server responded with a status of 404 ()`
 
 **4. SEO**
 
-![best practices](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/todo_list_app_audit/best_practices/capture2.JPG)
+![best practices](https://raw.githubusercontent.com/kirperov/todo-list-app/main/docs/images/todo_list_app_audit/seo/capture2.JPG)
 
 
 *Point positif*
