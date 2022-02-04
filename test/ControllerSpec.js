@@ -183,7 +183,7 @@ describe('controller', function () {
 		});
 
 		it('should update the view', function () {
-			// TODO: write test
+			// TEST 7
 			setUpModel([{id: 1, title: 'my todo ', completed: false}]);
 			subject.setView('');	
 			view.trigger('toggleAll', {completed: true});
